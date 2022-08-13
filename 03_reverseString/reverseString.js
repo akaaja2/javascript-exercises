@@ -1,4 +1,8 @@
-const reverseString = function() {
+const reverseString = function(str) {
+var arrString = str.split("");
+var flipMode = arrString.reverse();
+var rejoin = flipMode.join("");
+return rejoin; 
 
 };
 
