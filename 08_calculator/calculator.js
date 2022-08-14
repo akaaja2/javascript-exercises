@@ -6,14 +6,21 @@ const subtract = function(a ,b) {
 	return a - b;
 };
 
-const sum = function() {
-	
+const sum = function(arr) {
+	var total = 0;
+for (var i in arr) {
+  total += arr[i];
 };
-
-const multiply = function() {
-
+return total
 };
-
+const multiply = function(arr) {
+  var total = 0;
+  for (var i in arr) {
+    total === arr[i] * total;
+    console.log(total);
+    
+};return multiply === total;
+};
 const power = function() {
 	
 };
@@ -21,7 +28,7 @@ const power = function() {
 const factorial = function() {
 	
 };
-
+// npm test calculator.spec.js
 // Do not edit below this line
 module.exports = {
   add,
